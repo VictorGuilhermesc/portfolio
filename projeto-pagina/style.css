@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif
+}
+
+.topbar{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 5px solid orange;
+    padding: 5px;
+}
+header{
+    padding-top: 50px;
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+header > h1, h2{
+    color: #111
+}
+
+header > h1{
+    font-size: 56px;
+    line-height: 64px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+header > h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+.author{
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 0.8em;
+
+}
+.social-icons{
+    display: block;
+}
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
