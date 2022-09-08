@@ -13,12 +13,14 @@
     border-bottom: 5px solid orange;
     padding: 5px;
 }
+
 header{
     padding-top: 50px;
     max-width: 888px;
     margin: auto;
     padding: 30px;
 }
+
 header > h1, h2{
     color: #111
 }
@@ -29,35 +31,63 @@ header > h1{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 header > h2{
     font-weight: normal;
     font-size: 20px;
 }
+
 .author{
     font-weight: bold;
     padding-top: 5px;
     font-size: 0.8em;
 
 }
+
 .social-icons{
     display: block;
 }
+
 .social-icon{
     width: 20px;
     padding: 10px 10px 10px 0px;
 }
+
 a{
     text-decoration: none;
 }
+
 section{
-    max-width: 888px;
+    max-width: 688px;
     margin: auto;
     font-size: 25px;
 }
+
+section > p{
+    color: #555;
+}
+section > h3{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+img{
+   max-width: 688px;
+   margin-top: 25px;
+}
+small{
+    margin: 0px;
+    padding: 0px;
+
+}
+
 footer{
     margin-top: 20px;
     display: flex;
     height: 100px;
     background-color: #333;
     align-items: flex-end;
+}
+figcaption{
+    font-size: small;
 }
