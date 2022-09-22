@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+
+body{
+    max-width: 1440px;
+    margin: auto
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;700&family=Passion+One&display=swap');
 
 :root {
@@ -50,4 +56,54 @@ a{
 .banner > img{
     min-width: 100%;
     height: 347.78px;
+}
+.subbanner{
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--fonte);
+    font-weight: bold;
+}
+hr{
+    height: 0.5px;
+    background-color: var(--cinza-hr);
+    border-style: none;
+}
+main{
+    margin: auto;
+    margin-top: 3px;
+    max-width: 90%;
+
+
+}
+.produto{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: var(--fonte);
+    font-size: 26px;
+    display: inline-block;
+    
+}
+.produto > img{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    
+
+}
+.produto > h3{
+    margin-top: 20px;
+    font-size: 25px
+
+}
+.produto > p{
+    display: inline-block;
+}
+#preço{
+    margin-left: 5px;
+    color: var(--verde);
+    font-size:  30px;
 }
