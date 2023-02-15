@@ -7,11 +7,12 @@
 header{
     text-align: center;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1160px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     background-color: rgb(112, 206, 250);
+    box-sizing: border-box;
 }
 body{
     background-color: black;
@@ -23,14 +24,39 @@ main{
     background-image: url(images/people.jpg);
     background-size: cover;
     overflow: hidden;
-}
-.container{
-    border-radius: 5px;
-    padding: 15px;
-    font-size: large;
-    background-color: white;
-    width: 300px;
-    height: 500px;
-    float: right;
+    box-sizing: border-box;
 }
 
+.container{
+   max-width: 230px; 
+   background-color: #ffffffBB;
+   padding: 20px;
+   float: right;
+}
+
+input{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: none;
+    border-style: none;
+    width: 100%;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.164);
+    max-width: 1160px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto{
+    margin-left: 30px;
+    color:aliceblue;
+    width: 300px;
+}
