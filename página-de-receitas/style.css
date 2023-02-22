@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar{
+
+    background-color: #ff6b28;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container_bolo{
+    background-color: red;
+    min-height: 400px;
+    background-image: url(images/cabecalho_bolo.jpg);
+    background-size: cover;
+}
+
+.titulo{
+    color: #ff6b28;
+}
+main{
+    margin: auto;
+    max-width: 600px;
+}
